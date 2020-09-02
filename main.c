@@ -1,8 +1,13 @@
+// Evelyn Moore eim5178@psu.edu
+// Collaborators
 #include <stdio.h>
-#include<readline/readline.h>
+#include <readline/readline.h>
+#include <stdlib.h>
 
 int main(void) {
-  char *celsius = (readline("Enter your name: " );
-  double farenheit = 
-  printf("Hello, %s!\f",farenheit);
+  char *celsius = (readline("Enter temperature in celsius: " ));
+  double temp = atof(celsius);
+  double fahrenheit_temp;
+  fahrenheit_temp = (temp * 9/5) + 32;
+  printf(" %f°in celsius is equal to %f° in Fahrenheit.\f", temp, fahrenheit_temp);
 }
