@@ -1,5 +1,8 @@
 // Evelyn Moore eim5178@psu.edu
-// Collaborators
+// Collaborators:
+// Caleb Frantz cmf6208@psu.edu
+// Jared Cole jcc6066@psu.edu
+
 #include <stdio.h>
 #include <readline/readline.h>
 #include <stdlib.h>
